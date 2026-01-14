@@ -1,0 +1,20 @@
+{
+  "init_seed": 279070395,
+  "master_seed": 42,
+  "runs": [
+    {
+      "epochs": 1,
+      "mode": "clean",
+      "seed": 1020844565,
+      "sigma_mult": null
+    },
+    {
+      "epochs": 1,
+      "mode": "dp",
+      "seed": 392373675,
+      "sigma_mult": 1.0
+    }
+  ],
+  "subsample_seed": 42,
+  "xla_flags": ""
+}

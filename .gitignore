@@ -1,0 +1,17 @@
+logs/
+__pycache__
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzw
+*.pyzwz
+*.pyzwzw
+.venv/
+*.job
+*.out
+*.bak
+results/*/*/reproduce/*

@@ -1,0 +1,44 @@
+{
+  "init_seed": 434831980,
+  "master_seed": 42,
+  "runs": [
+    {
+      "epochs": 1,
+      "mode": "clean",
+      "seed": 1631546663,
+      "sigma_mult": null
+    },
+    {
+      "epochs": 1,
+      "mode": "dp",
+      "seed": 745651336,
+      "sigma_mult": 1.0
+    },
+    {
+      "epochs": 10,
+      "mode": "clean",
+      "seed": 1661059103,
+      "sigma_mult": null
+    },
+    {
+      "epochs": 10,
+      "mode": "dp",
+      "seed": 880135834,
+      "sigma_mult": 1.0
+    },
+    {
+      "epochs": 25,
+      "mode": "clean",
+      "seed": 291114261,
+      "sigma_mult": null
+    },
+    {
+      "epochs": 25,
+      "mode": "dp",
+      "seed": 544097637,
+      "sigma_mult": 1.0
+    }
+  ],
+  "subsample_seed": 42,
+  "xla_flags": ""
+}

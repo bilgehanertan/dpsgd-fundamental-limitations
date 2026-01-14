@@ -1,0 +1,29 @@
+{
+  "C_max": 20.0,
+  "C_min": 0.05,
+  "C_steps": 40,
+  "best_hparams_template": "./results_hyp_dp/best_svhn_wideresnet28x10_epochs{E}.csv",
+  "bs": 128,
+  "c_dagger_sigma": 0.33,
+  "dataset": "svhn",
+  "epochs_list": [
+    1,
+    10,
+    25
+  ],
+  "hparam_mode": "per_epoch",
+  "hparam_ref_epoch": 1,
+  "lr": 0.01,
+  "mini_bs": 32,
+  "model": "wideresnet28x10",
+  "momentum": 0.9,
+  "out_dir": "./results/svhn_wideresnet28x10_bs128",
+  "sampler": "poisson",
+  "seed": 42,
+  "sigma_mults": [
+    1.0
+  ],
+  "subsample_seed": 42,
+  "tx_preset": "base_256",
+  "wd": 0.0005
+}

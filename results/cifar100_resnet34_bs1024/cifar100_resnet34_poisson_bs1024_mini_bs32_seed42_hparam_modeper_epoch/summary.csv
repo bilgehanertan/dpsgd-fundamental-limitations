@@ -1,0 +1,6 @@
+item,value
+M_steps,48
+sigma_th,0.35938681584563503
+hparam_mode,per_epoch
+hparam_ref_epoch,1
+C_dagger,17.953846153846154

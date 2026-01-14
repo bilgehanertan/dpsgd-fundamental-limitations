@@ -1,0 +1,29 @@
+{
+  "C_max": 20.0,
+  "C_min": 0.05,
+  "C_steps": 40,
+  "best_hparams_template": "./results_hyp_dp/best_cifar10_vit_tiny_cifar_epochs{E}.csv",
+  "bs": 256,
+  "c_dagger_sigma": 0.33,
+  "dataset": "cifar10",
+  "epochs_list": [
+    1,
+    10,
+    25
+  ],
+  "hparam_mode": "per_epoch",
+  "hparam_ref_epoch": 1,
+  "lr": 0.01,
+  "mini_bs": 32,
+  "model": "vit_tiny_cifar",
+  "momentum": 0.9,
+  "out_dir": "./results/cifar10_vit_tiny_cifar_bs256",
+  "sampler": "reshuffle",
+  "seed": 42,
+  "sigma_mults": [
+    1.0
+  ],
+  "subsample_seed": 42,
+  "tx_preset": "tiny_128",
+  "wd": 5e-05
+}
